@@ -1,0 +1,217 @@
+/* 
+    PEDRO HENRIQUE V CORDISTA
+    CREATIVECODE | DEVSPACE
+    //
+    
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+@font-face {
+    font-family: 'Caviar Dreams';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/CaviarDreams.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Caviar Dreams Bold';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/CaviarDreams_Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Amithen';
+    src: url('../fonts/Amithen.otf');
+    src: url('../fonts/Amithen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    max-width: 100vw !important;
+    box-sizing: border-box
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 100vw !important;
+    font-family: 'Caviar Dreams';
+    font-weight: 300;
+}
+
+img {
+    display: block
+}
+
+:root {
+    --colorPurpleDark: #512645;
+}
+
+/********************* HELPERS *********************/
+.amithen {
+    font-family: 'Amithen';
+}
+
+.bold {
+    font-weight: 900;
+}
+
+/********************* MENU *********************/
+.menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: #53527e;
+    font-size: 1.2rem;
+    padding: 5px 0
+}
+
+.menu .container {
+    justify-content: space-between;
+}
+
+.menu-logo img {
+    max-width: 100px !important
+}
+
+.menu-links a {
+    margin: 0 7px
+}
+
+/********************* BANNER *********************/
+.banner {
+    background-color: #54527e;
+    color: white;
+    padding: 15px 0
+}
+
+.banner-title {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.banner-subtitle {
+    font-size: 1.5rem
+}
+
+/********************* ABOUT *********************/
+.about {
+    background-image: url('../img/bg-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 3rem 0 6rem
+}
+
+.about-container {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.about-title img , .services-title img {
+    height: 60px;
+    margin-right: 15px;
+}
+
+.about-title {
+    font-size: 35px
+}
+
+/********************* SERVICES *********************/
+.services {
+    padding: 2rem
+}
+
+.services-title {
+    color: #53527e;
+    font-size: 35px
+}
+
+.services-item {
+    padding: 0 2rem !important;
+}
+
+.services-item-title {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+/********************* WORKERS *********************/
+.workers {
+    padding: 2rem 0 4rem;
+    background-color: #eeeeee;
+}
+
+.workers .services-item {
+    padding: 0 1rem !important
+}
+
+.video-fix {
+    width: 100%;
+    height: 150px
+}
+
+/********************* BLOG *********************/
+.blog {
+    background-image: url('../img/bg-blog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+/********************* FOOTER *********************/
+footer {
+    background-color: #4f517b;
+    padding: 2rem 0;
+    color: white
+}
+
+.footer-address {
+    font-size: 16px
+}
+
+.footer-redes {
+    font-size: 34px;
+    text-align: center;
+}
+
+.footer-imagens {
+    justify-content: space-between;
+}
+
+.footer-imagens img {
+    height: 30px;
+    margin: 0 4px;
+}
+
+footer input {
+    background-color: white !important;
+    border: 0px !important;
+    height: 20px !important;
+    margin-bottom: 4px !important;
+}
+
+footer textarea {
+    background-color: white !important;
+    border: 0px !important;
+    height: 60px !important;
+    margin-bottom: 4px !important;
+}
+
+.footer-form-btn {
+    width: 100%;
+    display: block;
+    color: #4f517b;
+    text-align: center;
+    font-size: 20px;
+    padding: 4px 0
+
+}

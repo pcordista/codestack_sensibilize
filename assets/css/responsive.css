@@ -1,0 +1,148 @@
+.menumobile {
+    position: sticky;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.menumobile_logo>img {
+    width: 30%;
+    max-width: 100px !important;
+    margin: 0 auto
+}
+
+.menumobile_toogle {
+    color: #4f517b;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer
+}
+
+.menumobile_toogle>i {
+    font-size: 2.5rem
+}
+
+.pushmenu {
+    /*this is the nav*/
+    background: black;
+    font-family: Montserrat;
+    width: 240px;
+    color: white;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+}
+
+.pushmenu a {
+    display: block;
+    /* drops the nav vertically*/
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+    padding: 14px;
+}
+
+.pushmenu a:hover {
+    background: #00A287;
+    color: white
+}
+
+.pushmenu a:active {
+    background: #454f5c;
+    color: #fff;
+}
+
+.pushmenu-left {
+    left: -240px;
+}
+
+.pushmenu-left.pushmenu-open {
+    left: 0;
+}
+
+.pushmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+.pushmenu-push-toright {
+    left: 240px;
+}
+
+/*Transition*/
+
+.pushmenu, .pushmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 580px) {
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 20px !important;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        left: 1rem !important;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        right: 1rem !important;
+    }
+    .banner {
+        padding: 1.5rem 0;
+    }
+    .banner-title {
+        font-size: 30px;
+        margin-bottom: .5rem;
+    }
+    .about-container {
+        width: 80%;
+        font-size: 20px;
+    }
+    .services {
+        padding: 2rem 0;
+    }
+    .blog {
+        background-image: url('../img/bg-blog-mobile.jpg')
+    }
+    footer .row {
+        display: block !important
+    }
+    .footer-form {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    footer .row {
+        display: block !important
+    }
+    .footer-form {
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+    .banner {
+        padding: 1.5rem 0;
+    }
+    .banner-title {
+        font-size: 30px;
+        margin-bottom: .5rem;
+    }
+    .services-item {
+        margin: 2rem 0 !important;
+        padding: 0 2rem !important
+    }
+
+}
+
+@media (min-width: 1900px) {
+    .container {
+        max-width: 60% !important
+    }
+}
